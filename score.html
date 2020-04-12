@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="score.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="counter">
+                0 - 0
+            </div>
+            <div class="limit-text">
+                Playing to <span id="num-limit">5</span>
+            </div>
+            <div class="new-limit">
+                <input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="New Limit">
+            </div>
+            <div class="player-section">
+                <button class="btn btn-hover" id="btn-1">+1 Player <strong>1</strong> </button>
+                <button class="btn btn-hover" id="btn-2"> +1 Player <strong>2</strong> </button>
+                <button class="btn btn-hover" id="btn-r">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="score.js"></script>
+</body>
+
+</html>
